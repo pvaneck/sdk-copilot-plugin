@@ -5,5 +5,6 @@
   "keywords": ["azure", "sdk", "mcp", "azure-sdk"],
   "author": { "name": "Azure SDK Team" },
   "repository": "https://github.com/pvaneck/sdk-copilot-plugin",
-  "license": "MIT"
+  "license": "MIT",
+  "mcpServers": ".mcp.json"
 }

@@ -10,7 +10,6 @@ const fs = require("fs");
 const path = require("path");
 const { execFileSync, spawn } = require("child_process");
 const os = require("os");
-const zlib = require("zlib");
 
 const REPO = "Azure/azure-sdk-tools";
 const PACKAGE_NAME = "azsdk";
