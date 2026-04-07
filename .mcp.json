@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "azure-sdk-mcp": {
+      "command": "node",
+      "args": ["${CLAUDE_PLUGIN_ROOT}/scripts/run-azsdk-mcp.js", "mcp"]
+    }
+  }
+}
