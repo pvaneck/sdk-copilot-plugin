@@ -7,5 +7,5 @@
   "repository": "https://github.com/pvaneck/sdk-copilot-plugin",
   "license": "MIT",
   "mcpServers": ".mcp.json",
-  "skills": ["skills"]
+  "skills": [".github/skills"]
 }
