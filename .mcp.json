@@ -1,8 +1,9 @@
 {
   "mcpServers": {
     "azure-sdk-mcp": {
-      "command": "node",
-      "args": ["${CLAUDE_PLUGIN_ROOT}/scripts/run-azsdk-mcp.js", "mcp"]
+      "type": "stdio",
+      "command": "pwsh",
+      "args": ["${CLAUDE_PLUGIN_ROOT}/eng/common/mcp/azure-sdk-mcp.ps1", "-Run"]
     }
   }
 }
